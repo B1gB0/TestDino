@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: c2c2ecb4c8bd264479e3d1e7f007acc2
+  m_SerializeEntries:
+  - m_GUID: 1f019619c74caac45aadd37851e31252
+    m_Address: Assets/Scenes/Level 8.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ee6b0a6c160f5747bb0e5cd252d115d
+    m_Address: Assets/Scenes/Level 12.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36a534981f60eb94db8422314f02900c
+    m_Address: Assets/Scenes/Level 11.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e01f58c4289c3b4986a1a34ac32df6d
+    m_Address: Assets/Scenes/Level 5.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43b6c4d5580c6154cb33f8c48f57b5e1
+    m_Address: Assets/Scenes/Level 3.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 587385ec23117f843a11f70446a925d3
+    m_Address: Assets/Scenes/MenuScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 672348cf9b946ca47b03e783abc2d737
+    m_Address: Assets/Scenes/Level 1.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69ed13c4e4d3df9489883f6eceabb963
+    m_Address: Assets/Scenes/Level 4.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c0d0650eea6e474482d5617d2977d2e
+    m_Address: Assets/Scenes/Level 10.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b90d6cd3eec27fb4799df7fc99346289
+    m_Address: Assets/Scenes/Level 2.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba7c1e3224b64de40adab55f9a940efe
+    m_Address: Assets/Scenes/Level 7.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec128186b7fd91047b4300dfb599d5d4
+    m_Address: Assets/Scenes/Level 9.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f59f7ae82fbc7b84380e6099d5ce7c45
+    m_Address: Assets/Scenes/Level 6.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e63dc51f4ddf6b34e85704c33332973a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b8ca80ff9647def41b95f71d90f7090b, type: 2}
+    - {fileID: 11400000, guid: b2df0889275a87944846c12995cef182, type: 2}
