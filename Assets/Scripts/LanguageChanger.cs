@@ -26,6 +26,9 @@ public class LanguageChanger : MonoBehaviour
 
         reklamacount++;
         PlayerPrefs.SetInt("RekCount", reklamacount);
+        
+        YG2.SwitchLanguage(YG2.lang);
+        SetStartLanguage();
     }
 
     private void Update()
@@ -47,9 +50,16 @@ public class LanguageChanger : MonoBehaviour
 
     public void ChangeLanguage()
     {
-        LanguageHandler.language = (LanguageHandler.language == LanguageType.English)
-            ? LanguageType.Russian
-            : LanguageType.English;
+        if (LanguageHandler.language == LanguageType.English)
+        {
+            LanguageHandler.language = LanguageType.Russian;
+            YG2.SwitchLanguage(_languages[1]);
+        }
+        else
+        {
+            LanguageHandler.language = LanguageType.English;
+            YG2.SwitchLanguage(_languages[0]);
+        }
     }
 
     public void Rate()
@@ -73,5 +83,17 @@ public class LanguageChanger : MonoBehaviour
         //while (!BigBanner.IsLoaded()) {
         //yield return null;
         //}
+    }
+    
+    private void SetStartLanguage()
+    {
+        if (YG2.lang == _languages[0])
+        {
+            LanguageHandler.language = LanguageType.English;
+        }
+        else if(YG2.lang == _languages[1])
+        {
+            LanguageHandler.language = LanguageType.Russian;
+        }
     }
 }
