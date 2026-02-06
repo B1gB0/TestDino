@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class PuzzleHandler : MonoBehaviour
 {
@@ -58,6 +59,8 @@ public class PuzzleHandler : MonoBehaviour
         
         
         completePuzzle.SetActive(false);
+        
+        useMouse = YG2.envir.isDesktop;
     }
 
     public void IncreasePiecesCount(Vector2 position)
